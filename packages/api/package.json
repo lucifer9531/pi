@@ -1,0 +1,38 @@
+{
+  "name": "@pi/api",
+  "version": "0.5.1",
+  "description": "@pi核心套件-核心api集合",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w",
+    "test": "jest --config ../../jest.config.json --rootDir"
+  },
+  "author": "IRIS",
+  "license": "MIT",
+  "dependencies": {
+    "@pi/argv": "^0.5.1",
+    "@pi/cache": "^0.5.1",
+    "@pi/commands": "^0.5.1",
+    "@pi/config": "^0.5.1",
+    "@pi/env": "^0.5.1",
+    "@pi/generate": "^0.5.1",
+    "@pi/home": "^0.5.1",
+    "@pi/intl": "^0.5.1",
+    "@pi/log": "^0.5.1",
+    "@pi/module": "^0.5.1",
+    "@pi/module-name": "^0.5.1",
+    "@pi/npm": "^0.5.1",
+    "@pi/proxy": "^0.5.1",
+    "@pi/task": "^0.5.1",
+    "@pi/upgrade": "^0.5.1"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

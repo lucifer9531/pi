@@ -1,0 +1,29 @@
+{
+  "name": "@pi/argv",
+  "version": "0.5.1",
+  "description": "@pi核心套件-命令的参数初始化公共类",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w",
+    "test": "jest --config ../../jest.config.json --rootDir"
+  },
+  "author": "IRIS",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/yargs": "^17.0.5"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
