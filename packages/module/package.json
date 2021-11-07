@@ -1,6 +1,6 @@
 {
   "name": "@pi/module",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "@pi核心套件-pi模块获取、安装、卸载",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

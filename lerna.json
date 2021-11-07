@@ -1,8 +1,8 @@
 {
-  "lerna": "3.8.5",
+  "lerna": "4.0.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "0.5.2",
+  "version": "0.5.3",
   "changelog": {
     "repo": "PI",
     "labels": {
